@@ -1,0 +1,75 @@
+/*header*/
+.wordle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
+  height: 50px;
+  width: 100%;
+  background-color: blueviolet;
+}
+
+.icon-bar-menu {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-bar {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+}
+/*main*/
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.board-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  width: 60px;
+  height: 60px;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  bottom: -50px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.keyboard-colunm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+}
