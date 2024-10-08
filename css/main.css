@@ -1,13 +1,14 @@
 /*header*/
-.wordle {
+header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-size: x-large;
   font-weight: bold;
   height: 50px;
   width: 100%;
   background-color: blueviolet;
+  position: relative;
 }
 
 .icon-bar-menu {
@@ -16,9 +17,22 @@
 }
 
 .icon-bar {
-  width: 50px;
+  display: flex;
+  width: 150px;
   height: 50px;
+  align-items: center;
+  justify-content: center;
   background-color: aqua;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+}
+
+.wordle {
+  position: relative;
+  left: 60px;
 }
 /*main*/
 
